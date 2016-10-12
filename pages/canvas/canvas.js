@@ -32,3 +32,26 @@ Page({
       canvasId: 'firstCanvas',
       actions: context.getActions() //获取绘图动作数组
     })
+
+    context.fillText("MINA", 50, 60)
+    context.drawImage("http://www.blingstorm.com.cn/statics/img/game-icon/jiangbingren.png", 0, 0)
+    context.translate(50, 50)
+    context.rotate(5 * Math.PI / 180)
+    context.stroke()
+
+    wx.drawCanvas({
+          canvasId: 'secondCanvas',
+          actions: context.getActions()
+        })
+
+    context.drawImage("http://www.blingstorm.com.cn/statics/img/game-icon/jiangbingren.png", 0, 0)
+    context.translate(50, 50)
+
+    wx.drawCanvas({
+          canvasId: 'threeCanvas',
+          actions: context.getActions()
+        })
+
+
+  }
+})
