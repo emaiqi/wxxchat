@@ -8,5 +8,22 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小程序聊天室",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [ {
+      "pagePath": "pages/index/index",
+      "iconPath": "Img/wechat.png",
+      "selectedIconPath": "Img/wechatHL.png",
+      "text": "index"
+    },{
+      "pagePath": "pages/canvas/canvas",
+      "iconPath": "img/icon_API.png",
+      "selectedIconPath": "Img/icon_API_HL.png",
+      "text": "canvas"
+    }]
   }
 }
