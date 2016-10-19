@@ -1,0 +1,206 @@
+/**index.wxss**/
+
+.container {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image:url(../img/beijing.jpg);
+}
+
+.tuichu {
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 0.6rem;
+    left: 1rem;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.mid-top{
+    position:absolute;
+    width: 12rem;
+    height: 2.8rem;
+    top:0rem;
+    left: 4.5rem;
+    border-radius: 100%;
+    overflow: visible;
+    z-index:1;
+   
+}
+
+.jiqiren{
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 0.6rem;
+    left: 5.6rem;
+    border-radius: 100%;   
+    z-index:2;
+}
+
+.shezhi{
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 0.6rem;
+    left: 13.2rem;  
+    z-index:2;
+}
+
+.dipai1{
+    position: absolute;
+    width: 1.8rem;
+    height: 2.2rem;
+    top: 0.2rem;
+    left: 8.4rem;  
+    z-index:2;
+}
+
+.dipai2{
+    position: absolute;
+    width: 1.8rem;
+    height: 2.2rem;
+    top: 0.2rem;
+    left: 9.5rem;  
+    z-index:2;
+}
+
+.dipai3{
+    position: absolute;
+    width: 1.8rem;
+    height: 2.2rem;
+    top: 0.2rem;
+    left: 10.6rem;  
+    z-index:2;
+}
+
+
+.toukuang1{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 4rem;
+    left: 16rem;  
+   
+}
+
+.toukuang2{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 4rem;
+    left: 1rem;  
+    
+}
+
+
+.fen{
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+       
+}
+
+
+
+.zhong{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 12rem;
+    left: 7.95rem; 
+     z-index:2;     
+}
+
+.heidi{
+    position: absolute;
+    width: 4.5rem;
+    height: 1.2rem;
+}
+
+.shan{
+    position: absolute;
+    width: 20rem;
+    height: 9rem;
+    top: 14.5rem;
+    left: 0rem;
+     z-index:1;      
+}
+
+.buchu{
+    position: absolute;
+    width: 4rem;
+    height: 2rem;
+    top: 19rem;
+    left: 2rem; 
+     z-index:2;     
+}
+
+.tishi{
+    position: absolute;
+    width: 4rem;
+    height: 2rem;
+    top: 19rem;
+    left: 7.5rem; 
+     z-index:2;     
+}
+
+.chupai{
+    position: absolute;
+    width: 4rem;
+    height: 2rem;
+    top: 19rem;
+    left: 13rem; 
+     z-index:2;     
+}
+
+.firstpai{
+    position: absolute;
+    width: 4rem;
+    height: 4.6rem;
+    top: 22rem;
+    z-index:1;
+}
+
+.secondpai{
+    position: absolute;
+    width: 4rem;
+    height: 4.6rem;
+    top: 24.5rem;
+}
+
+.bottom{
+    position: absolute;
+    width: 20rem;
+    height: 4rem;
+    top: 29.5rem;
+    left: 0rem;
+    z-index: 2;
+}
+
+.dizhukuang{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 29rem;
+    left: 1rem;  
+    z-index: 3;
+}
+.userinfo-avatar{
+    position: absolute;
+    width: 2.6rem;
+    height: 2.6rem;
+    top: 29.2rem;
+    left: 1.2rem;  
+    z-index: 5;
+    border-radius: 10%;
+}
+.liaotian{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+}

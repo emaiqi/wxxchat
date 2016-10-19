@@ -1,0 +1,71 @@
+
+<import src="middle.wxml"/>
+
+<!--index.wxml-->
+<view class="container">
+  <view wx:if="{{displaynone}}">
+  <image class="tuichu" src="../img/tuichu.png"></image>
+  <image class="mid-top" src="../img/2.png"></image>
+  <image class="jiqiren" src="../img/jiqiren.png"></image>
+  <image class="jiqiren" src="../img/jiqiren.png"></image>
+  <image class="dipai1" src="../img/dipai.png"></image>
+  <image class="dipai2" src="../img/dipai.png"></image>
+  <image class="dipai3" src="../img/dipai.png"></image>
+  <image class="shezhi" src="../img/shezhi.png"></image>
+  <image style='{{displaynone}}' class="toukuang1" src="../img/toukuang1.png"></image>
+  <image class="toukuang2" src="../img/toukuang2.png"></image>
+  <image class="fen" style="left:0.4rem;top:8rem;z-index:5;" src="../img/fen.png"></image>
+  <image class="fen" style="left:15rem;top:8rem;z-index:5;" src="../img/fen.png"></image>
+  <image class="fen" style="left:15.6rem;top:3.8rem;z-index=5;{{displaynone}}" src="../img/dizhu.png"></image>
+  <image class="heidi" style="left:0.4rem;top:8rem;z-idex=4;" src="../img/heidi.png"></image>
+  <image class="heidi" style="left:15rem;top:8rem;z-idex=4;" src="../img/heidi.png"></image>
+  </view>
+  <view>
+  <image class="zhong" src="../img/zhong.png"></image>
+  <image class="shan" src="../img/1.png"></image>
+  <image class="buchu" src="../img/buchu.png"></image>
+  <image class="tishi" src="../img/tishi.png"></image>
+  <image class="chupai" src="../img/chupai.png"></image>
+  </view>
+  <block wx:if="{{displaytrue}}">
+    <template is="even"/>
+  </block>
+  <view>
+  <image class="firstpai" src="../img/p.png" style="left:1.4rem;z-index:1;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:2.8rem;z-index:2;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:4.2rem;z-index:3;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:5.6rem;z-index:4;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:7rem;z-index:5;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:8.4rem;z-index:6;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:9.8rem;z-index:7;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:11.2rem;z-index:8;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:12.6rem;z-index:9;"></image>
+  <image class="firstpai" src="../img/p.png" style="left:14rem;z-index:10;"></image>
+
+  <image class="secondpai" src="../img/p.png" style="left:1.4rem;z-index:1;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:2.8rem;z-index:2;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:4.2rem;z-index:3;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:5.6rem;z-index:4;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:7rem;z-index:5;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:8.4rem;z-index:6;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:9.8rem;z-index:7;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:11.2rem;z-index:8;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:12.6rem;z-index:9;"></image>
+  <image class="secondpai" src="../img/p.png" style="left:14rem;z-index:10;"></image>
+  
+  </view>
+  <view>
+  <canvas class="bottom" canvas-id="bottomCanvas"></canvas>
+  <image class="dizhukuang" src="../img/toukuang2.png"></image>
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <image class="fen" style="left:5rem;z-index:5;top:30rem; " src="../img/fen.png"></image>
+  <image class="fen" style="left:11rem;z-index:5;top:30rem; " src="../img/di.png"></image>
+  <image class="fen" style="left:11rem;z-index:5;top:31.8rem; " src="../img/bei.png"></image>
+  <image class="liaotian" style="left:16.5rem;z-index:3;top:30rem; " src="../img/liaotian.png"></image>
+  <image class="heidi" style="left:5rem;top:30rem;z-index:3;" src="../img/heidi.png"></image>
+  <image class="heidi" style="left:5rem;top:31.8rem;z-index:3;" src="../img/jifen.png"></image>
+  <image class="heidi" style="left:11rem;top:30rem;z-index:3;" src="../img/heidi.png"></image>
+  <image class="heidi" style="left:11rem;top:31.8rem;z-index:3;" src="../img/heidi.png"></image>
+  </view>
+  
+</view>
